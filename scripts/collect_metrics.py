@@ -1,11 +1,24 @@
 import boto3
+from dotenv import load_dotenv
+import os
+from datetime import datetime, timedelta
 from datetime import datetime, timedelta
 import pytz
 import pandas as pd
 
-# Setup AWS Clients
+# load environment variables
+aws_access_key = os.getenv("AWS_ACCESS_KEY_ID")
+aws_secret_key = os.getenv("AWS_SECRET_ACCESS_KEY")
+region = os.getenv("AWS_DEFAULT_REGION")
 
-cloudwatch = boto3.client('cloudwatch', region_name='us-east-1')
+# Setup CloudWatch Client
+
+cloudwatch = boto3.client(
+    'cloudwatch',
+    aws_access_key_id=aws_access_key,
+    aws_secret_access_key=aws_secret_key,
+    region_name=region
+)
 
 INSTANCE_ID = 'i-021d5904228276358'
 
