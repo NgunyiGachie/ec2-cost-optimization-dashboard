@@ -1,0 +1,10 @@
+====== EC2 Usage Efficiency Summary ======
+
+Total Runtime: 168.0 hrs
+Avg CPU Usage: 2.5%
+Underutilized: 100.0%
+Total Network: 1.89 MB
+Estimated Cost (t2.micro): $1.9488
+Estimated Cost (t3.small): $3.4944
+Cost/1% CPU (t2.micro): $0.7795
+Cost/1% CPU (t3.small): $1.3976
