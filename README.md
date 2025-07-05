@@ -12,10 +12,10 @@ An interactive dashboard that analyzes resource utilization, network throughput,
 
 ## Screenshots
 ### CPU Utilization Over Time
-![CPU Usage](assets/cpu_usage_plot.png)
+![CPU Usage](scripts/reports/cpu_usage_plot.png)
 
 ### Cost Efficiency Comparison
-![Cost Efficiency](assets/cost_efficiency_comparison.png)
+![Cost Efficiency](scripts/reports/cost_efficiency_comparison.png)
 
 ---
 ##  Summary Insights
