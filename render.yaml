@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: ec2-dashboard
+    name: ec2-cost-optimization-dashboard
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python dashboard/app.py
