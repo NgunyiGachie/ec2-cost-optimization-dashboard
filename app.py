@@ -5,7 +5,7 @@ import plotly.express as px
 import os
 
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 data_path = os.path.join(BASE_DIR, "scripts", "data", "processed", "ec2_usage_summary.csv")
 df = pd.read_csv(data_path)
 df["Timestamp"] = pd.to_datetime(df["Timestamp"])
