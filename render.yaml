@@ -3,7 +3,5 @@ services:
     name: ec2-cost-optimization-dashboard
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python dashboard/app.py
-    envVars:
-      - key: PYTHON_VERSION
-        value: 3.8
+    startCommand: python app.py
+    runtime: python3
