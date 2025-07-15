@@ -54,11 +54,12 @@ This project applies FinOps principles to evaluate and reduce unnecessary EC2 cl
 ---
 
 ## Tech Stack
-- Python 3.8+
+- Python 3.8.13
 - AWS CloudWatch & boto3
-- Dash (Plotly)
+- Dash
+- Plotly
 - Pandas
-- Matplotlib/Plotly Express (for visuals)
+- Matplotlib
 
 ---
 ## Run Locally
